@@ -3,11 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.udacity.Lab_4_part_2.MainActivity">
 
-    <ListView
-        android:id="@+id/sandwiches_listview"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/sandwiches_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"
+        app:layoutManager="LinearLayoutManager"
+        tools:listitem="@layout/list_item" />
 
 </RelativeLayout>
