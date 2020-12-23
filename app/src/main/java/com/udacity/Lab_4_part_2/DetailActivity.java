@@ -1,4 +1,4 @@
-package com.udacity.sandwichclub;
+package com.udacity.Lab_4_part_2;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
-import com.udacity.sandwichclub.model.Sandwich;
-import com.udacity.sandwichclub.utils.JsonUtils;
+import com.udacity.Lab_4_part_2.model.Sandwich;
+import com.udacity.Lab_4_part_2.utils.JsonUtils;
 
 public class DetailActivity extends AppCompatActivity {
 
