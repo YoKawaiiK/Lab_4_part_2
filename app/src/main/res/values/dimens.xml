@@ -2,4 +2,8 @@
 <resources>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="detailContainerMargin">8sp</dimen>
+    <dimen name="textSize">24sp</dimen>
+    <dimen name="itemMarginTop">8sp</dimen>
 </resources>
